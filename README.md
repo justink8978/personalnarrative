@@ -2,23 +2,17 @@
 
 ## UML Diagram
 
+![Screenshot 2025-02-11 at 6 21 16 PM](https://github.com/user-attachments/assets/d1d2cdf0-514f-456c-9717-3c67f8970eab)
 
 
 ## Video
 
-Record a short video of your story to display here on your README. You can do this by:
-
-- Screen record your project running on Code.org.
-- Upload that recording to YouTube.
-- Take a thumbnail for your image.
-- Upload the thumbnail image to your repo.
-- Use the following markdown
-
-[![Thumbnail for my projet](nameOfThumbnail.png)](youtube-URL-here)
+([youtube-URL-here](https://drive.google.com/file/d/1EdnqVLIAZEn8vFROkiFpQnc5pNFjYkoB/view?usp=sharing))
 
 ## Story Description
 
-Write a description of the story that your animation showcases. Give addional context for your story here in the case your animation is more abstract and only has images and little text. Lastly, include what data in your project is represented in 2D arrays and how those directly relate to the story your animation showcase.
+This animation showcases LeBron James’ career by displaying the teams he has played for and applying different filters to his images. The title screen introduces the theme, followed by team logos representing his journey through the Cavaliers, Heat, and Lakers. Then, four images of LeBron appear, each modified with a different filter to create unique effects. The animation uses 2D arrays to organize the text (titleArray), images (imagesArray), and filter assignments (array), ensuring that the correct visuals and effects are applied in sequence.
+
 ## Image Filter Analysis
 
-Choose at least 2 filters uses in your animation to explain how the pixels are modified. If you created a new image filter that was not one of the ones from this unit, make sure to explain and analyze that filter(s) before choosing ones that came from this unit.
+The grayscale filter removes all color by averaging the red, green, and blue values of each pixel and setting them to the same number, making the image black and white. The colorize filter changes pixel colors based on brightness—dark pixels turn red, mid-bright pixels turn green, and bright pixels turn blue, creating a false-color effect. The weighted random filter, which I created, keeps the strongest color channel at full intensity while randomly adjusting the other two, making colors pop in an unpredictable way. These filters modify pixels differently to create unique visual effects in the animation.
